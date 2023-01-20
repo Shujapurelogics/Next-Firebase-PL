@@ -6,9 +6,9 @@ const Slider = () => {
 
   return (
     <Container className="c-container">
-        <div>
-            <div>
-                <img src="/Slider.svg" alt="slider"/>
+        <div className='center-content'>
+            <div className='div-image'>
+                <img className="image1" src="/Slider.svg" alt="slider"/>
             </div>
             <div className='bottom-section'>
                 <div className='logo-text-combined'>

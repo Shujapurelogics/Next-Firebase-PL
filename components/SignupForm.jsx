@@ -33,7 +33,7 @@ const SignupForm = () => {
   };
 
   return (
-    <Container className="c-container" style={{ padding: '40px 0px'}}>
+    <Container className="c-container" style={{ padding: '0px 0px'}}>
         <div className="logo-div">
             <img className="logo" src="/Logo.svg" alt="Logo"/>
             <h1 className="logo-text-1">anime</h1>

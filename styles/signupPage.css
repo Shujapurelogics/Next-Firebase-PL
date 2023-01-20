@@ -1,14 +1,36 @@
 .signup-page {
   display: flex;
   flex-direction: row;
+  flex-wrap: wrap;
   height: 100%;
 }
 .c-container{
-    height: 100%;
+    height: 100%;    
+}
+
+.center-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.div-image{
+    display: flex;
+    background-color: #E487FB;
+    border-radius: 50%;
+    width: 548px;
+    height: 548px;
+}
+.image1{
+    margin-bottom: -64px;
 }
 
 .slider {
+  width: 50%;
+  height: initial;
   background-color: #3e1149;
+  padding: 50px;
 }
 
 .signup-form {
@@ -26,14 +48,20 @@
     flex-direction: column;
     justify-content: center;
     justify-items: center;
+    align-items: center;
     padding: 15px;
     margin: 0px !important;
 }
+.c1-image{
+    width: auto;
+}
 
 .c1-text{
+    width: auto;
     color: white;
 }
 .c1-p{
+    width: auto;
     color: white;
 }
 
@@ -42,11 +70,31 @@
 }
 
 .logo-text-1 {
-  color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    color: #FFFFFF;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 22px;
+    line-height: 26px;
+    text-align: center;
+    letter-spacing: 0.065em;
 }
 
 .logo-text-2 {
-  color: #ca38ed;
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    color: #ca38ed;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 22px;
+    line-height: 26px;
+    text-align: center;
+    letter-spacing: 0.065em;
 }
 
 .custom-size{
@@ -121,6 +169,7 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
+    padding: 40px;
 }
 
 .reg-text{
