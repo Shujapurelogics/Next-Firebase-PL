@@ -68,7 +68,7 @@ export default function Home() {
            </FormGroup>
            <FormGroup row>
             <Col>
-              No account? <Link href="/sign_up">Create account</Link>
+              No account? <Link href="/sign_up">Register</Link>
             </Col>
           </FormGroup>
           </Form>
