@@ -33,7 +33,7 @@ const SignupForm = () => {
   };
 
   return (
-    <Container className="c-container" style={{ padding: '40px 0px'}}>
+      <>
         <div className="logo-div">
             <img className="logo" src="/Logo.svg" alt="Logo"/>
             <h1 className="logo-text-1">anime</h1>
@@ -45,8 +45,8 @@ const SignupForm = () => {
             <h2 className="c1-text">ようこそ!</h2>
             <p className="c1-p">Bem-vindo(a)!</p>
         </div>
-        <div className="form">
-          <Form style={{maxWidth: '400px', margin: 'auto'}} onSubmit={onSubmit}>
+        <div className="form col-md-6" style={{margin: 'auto'}}>
+          <Form onSubmit={onSubmit}>
           { error && <Alert color="danger">{error}</Alert>}
             <FormGroup row>
               <Label className="label" for="signUpEmail" >Email</Label>
@@ -107,7 +107,7 @@ const SignupForm = () => {
         </div>
      
 
-    </Container>
+    </>
   );
 };
 

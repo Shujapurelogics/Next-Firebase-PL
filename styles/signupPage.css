@@ -7,9 +7,7 @@
     height: 100%;
 }
 
-.slider {
-  background-color: #3e1149;
-}
+
 
 .signup-form {
   background-color: #000000;
@@ -22,12 +20,7 @@
   margin: 0px !important;
 }
 .cartoon-div{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    justify-items: center;
-    padding: 15px;
-    margin: 0px !important;
+    text-align: center;
 }
 
 .c1-text{
@@ -147,4 +140,17 @@
     display: flex;
     flex-direction: row;
     justify-content: center;
+    margin-bottom: 38px;
+}
+
+@media(min-width: 768px){
+    .slider {
+        background-color: #3e1149;
+    }
+}
+
+@media(max-width: 767px){
+    .slider {
+        display: none;
+    }
 }
