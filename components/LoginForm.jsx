@@ -5,6 +5,7 @@ import { useRouter } from 'next/router';
 import { useAuth } from '../context/AuthUserContext';
 
 import {Container, Row, Col, Button, Form, FormGroup, Label, Input, Alert} from 'reactstrap';
+import {ReactSocialMediaIcons} from 'react-social-media-icons';
 
 export default function LoginForm() {
   const [email, setEmail] = useState("");
@@ -64,12 +65,30 @@ export default function LoginForm() {
             <FormGroup row>
                <Button className="reg-button">Login</Button>
            </FormGroup>
-           <FormGroup row>
+           {/* <FormGroup row>
             <Col className='text-color-white bottom-sec'>
             Não tem conta ? <Link className="text-color-pink" href="/signupPage"> Registre-se</Link>
             </Col>
-          </FormGroup>
+          </FormGroup> */}
           </Form>
+          <div className="reg-text">
+            <p> Usar Login Social </p>
+        </div>
+          <div className="social-icons"> 
+            <div className="s-icon">
+                <ReactSocialMediaIcons borderWidth="2" borderColor="#FFFFFF" roundness="10px" icon="instagram" iconColor="rgba(255,255,255,1)" backgroundColor="rgba(255, 255, 255, 0.47)" url="https://some-website.com/my-social-media-url" size="48"/>
+            </div>
+            <div className="s-icon">
+                <ReactSocialMediaIcons borderWidth="2" borderColor="#FFFFFF" roundness="10px" icon="twitter" iconColor="rgba(255,255,255,1)" backgroundColor="rgba(255, 255, 255, 0.47)" url="https://some-website.com/my-social-media-url" size="48"/>
+            </div>
+            <div className="s-icon">
+                <ReactSocialMediaIcons borderWidth="2" borderColor="#FFFFFF" roundness="10px" icon="facebook" iconColor="rgba(255,255,255,1)" backgroundColor="rgba(255, 255, 255, 0.47)" url="https://some-website.com/my-social-media-url" size="48"/>
+            </div>
+        </div>
+        <div className="bottom-sec">
+            <p className="text-color-white">Não tem conta ? </p>
+            <Link className="text-color-pink" href="/signupPage"> Registre-se</Link>
+        </div>
       </div>
     </Container>
   )
