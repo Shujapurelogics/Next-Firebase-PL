@@ -34,10 +34,6 @@
 }
 
 
-.signup-form {
-  background-color: #000000;
-}
-
 .logo-div {
   display: flex;
   flex-direction: row;
@@ -205,10 +201,21 @@
     .slider {
         background-color: #3e1149;
     }
+    .signup-form {
+        background-color: #000000;
+      }
 }
 
 @media(max-width: 767px){
     .slider {
         display: none;
     }
+    .signup-form {
+        background-image: linear-gradient(#CA38ED, #000000);
+    }
+}
+
+.form-control{
+    border: 2px solid #fff;
+    background-color: rgba(255, 255, 255, 0.47);
 }

@@ -38,8 +38,7 @@ export default function LoginForm() {
             <h1 className="c1-text">ひさしぶり!</h1>
             <h4 className="c1-p">Olá, sentimos sua falta!</h4>
         </div>
-      <div style={{maxWidth: '400px', margin: 'auto'}}>
-        <div>
+      <div className="col-md-6" style={{margin: 'auto'}}>
           <Form onSubmit={onSubmit}>
           { error && <Alert color="danger">{error}</Alert>}
             <FormGroup row>
@@ -71,7 +70,6 @@ export default function LoginForm() {
             </Col>
           </FormGroup>
           </Form>
-        </div>
       </div>
     </Container>
   )
