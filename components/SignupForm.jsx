@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react";
 import { useRouter } from "next/router";
 import { useAuth } from '../context/AuthUserContext';
+import Link from "next/link";
 
 import { Container, Row, Col, Button, Form, FormGroup, Label, Input, Alert} from "reactstrap";
 import {ReactSocialMediaIcons} from 'react-social-media-icons';
@@ -100,9 +101,9 @@ const SignupForm = () => {
             </div>
         </div>
         
-       
-        <div className="">
-
+        <div className="bottom-sec">
+            <p className="text-color-white">Já é membro ? </p>
+            <Link className="text-color-pink" href="/">Faça Login</Link>
         </div>
      
 
