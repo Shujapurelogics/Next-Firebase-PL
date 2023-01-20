@@ -1,5 +1,6 @@
 import '../styles/globals.css'
 import 'bootstrap/dist/css/bootstrap.min.css';
+import '../styles/signupPage.css'
 
 import { AuthUserProvider } from '../context/AuthUserContext';
 

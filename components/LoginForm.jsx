@@ -6,7 +6,7 @@ import { useAuth } from '../context/AuthUserContext';
 
 import {Container, Row, Col, Button, Form, FormGroup, Label, Input, Alert} from 'reactstrap';
 
-export default function Home() {
+export default function LoginForm() {
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
   const [error, setError] = useState(null);

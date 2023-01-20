@@ -1,0 +1,154 @@
+.signup-page {
+  display: flex;
+  flex-direction: row;
+  height: 100%;
+}
+.c-container{
+    height: 100%;
+}
+
+.slider {
+  width: 50%;
+  height: 100%;
+  background-color: #3e1149;
+}
+
+.signup-form {
+  width: 50%;
+  height: 100%;
+  background-color: #000000;
+}
+
+.logo-div {
+  display: flex;
+  flex-direction: row;
+  padding: 15px;
+  margin: 0px !important;
+}
+.cartoon-div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-items: center;
+    padding: 15px;
+    margin: 0px !important;
+}
+
+.c1-text{
+    color: white;
+}
+.c1-p{
+    color: white;
+}
+
+.logo {
+  padding-right: 14px;
+}
+
+.logo-text-1 {
+  color: #FFFFFF;
+}
+
+.logo-text-2 {
+  color: #ca38ed;
+}
+
+.custom-size{
+    font-size: 80.1282px;
+    font-weight: 900;
+    line-height: 94px;
+    text-align: center;
+    letter-spacing: 0.065em;
+}
+
+.logo-text-combined{
+    display: flex;
+    justify-content: center;
+}
+
+.label{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    letter-spacing: -0.103101px;
+    color: #FFFFFF;
+}
+
+.social-icons{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.s-icon{
+    padding: 20px;
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+}
+
+.reg-button{
+    width: 100%;
+    height: 60px;
+    background: #E487FB;
+    border-radius: 10px;
+}
+
+.input-fields{
+    width: 100%;
+    height: 60px;
+    background-color: (255, 255, 255, 0.47);
+    color: white;
+    border-radius: 10px;
+
+}
+
+.slider-text{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+    color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    width: 60%;
+}
+
+.bottom-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.reg-text{
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-top: 10px;
+}
+
+.line{
+    border: 2px sloid  white ;
+}
+
+.text-color-pink{
+    color: #E487FB;
+}
+.text-color-white{
+    padding-left: 2px;
+    color: white;
+}
+
+.bottom-sec{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
